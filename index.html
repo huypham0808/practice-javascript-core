@@ -10,11 +10,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./main.js" async></script>
 </head>
 
 <body>
     <p id="demo">Hello world Test</p>
     <button type="button" onclick="changeStyle()">Test</button>
+    <img src="./assets/light-bulb-2.jpg" alt="bulb2" id="bulb">
+    <button class="tunr-on" onclick="lightSetting('on')">Light on</button>
+    <button class="tunr-off" onclick="lightSetting('off')">Light off</button>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -27,7 +31,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <!-- <script src="./main.js"></script> -->
-    <script src="./main.js"></script>
+
     <!-- <script src="./callback.js"></script>
     <script src="./promise.js"></script>
     <script src="./asyncawait.js"></script> -->
